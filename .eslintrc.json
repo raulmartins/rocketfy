@@ -8,6 +8,8 @@
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {
     "semi": [1, "never"],
+    "no-param-reassign": 0,
+    "react/prop-types": 0,
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".js", ".jsx"] }

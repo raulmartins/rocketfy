@@ -14,10 +14,6 @@ export const Container = styled.div`
   border-top: 20px solid rgba(230, 236, 245, 0.4);
   cursor: grab;
 
-  :hover {
-    transform: scale(1.04);
-  }
-
   header {
     position: absolute;
     top: -22px;
